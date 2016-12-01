@@ -1,0 +1,331 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\xlinix\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml adder.twx adder.ncd -o adder.twr adder.pcf
+
+Design file:              adder.ncd
+Physical constraint file: adder.pcf
+Device,package,speed:     xc3s1200e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+imme<0>        |pc_imme<0>     |    8.561|
+imme<0>        |pc_imme<1>     |    9.405|
+imme<0>        |pc_imme<2>     |    8.772|
+imme<0>        |pc_imme<3>     |    9.189|
+imme<0>        |pc_imme<4>     |    9.428|
+imme<0>        |pc_imme<5>     |    9.648|
+imme<0>        |pc_imme<6>     |    8.615|
+imme<0>        |pc_imme<7>     |    9.161|
+imme<0>        |pc_imme<8>     |    8.753|
+imme<0>        |pc_imme<9>     |    9.477|
+imme<0>        |pc_imme<10>    |    8.959|
+imme<0>        |pc_imme<11>    |    9.663|
+imme<0>        |pc_imme<12>    |    8.418|
+imme<0>        |pc_imme<13>    |    9.064|
+imme<0>        |pc_imme<14>    |    9.058|
+imme<0>        |pc_imme<15>    |   10.226|
+imme<1>        |pc_imme<1>     |    9.027|
+imme<1>        |pc_imme<2>     |    8.643|
+imme<1>        |pc_imme<3>     |    9.060|
+imme<1>        |pc_imme<4>     |    9.299|
+imme<1>        |pc_imme<5>     |    9.519|
+imme<1>        |pc_imme<6>     |    8.486|
+imme<1>        |pc_imme<7>     |    9.032|
+imme<1>        |pc_imme<8>     |    8.624|
+imme<1>        |pc_imme<9>     |    9.348|
+imme<1>        |pc_imme<10>    |    8.830|
+imme<1>        |pc_imme<11>    |    9.534|
+imme<1>        |pc_imme<12>    |    8.289|
+imme<1>        |pc_imme<13>    |    8.935|
+imme<1>        |pc_imme<14>    |    8.929|
+imme<1>        |pc_imme<15>    |   10.097|
+imme<2>        |pc_imme<2>     |    8.190|
+imme<2>        |pc_imme<3>     |    8.781|
+imme<2>        |pc_imme<4>     |    9.292|
+imme<2>        |pc_imme<5>     |    9.512|
+imme<2>        |pc_imme<6>     |    8.479|
+imme<2>        |pc_imme<7>     |    9.025|
+imme<2>        |pc_imme<8>     |    8.617|
+imme<2>        |pc_imme<9>     |    9.341|
+imme<2>        |pc_imme<10>    |    8.823|
+imme<2>        |pc_imme<11>    |    9.527|
+imme<2>        |pc_imme<12>    |    8.282|
+imme<2>        |pc_imme<13>    |    8.928|
+imme<2>        |pc_imme<14>    |    8.922|
+imme<2>        |pc_imme<15>    |   10.090|
+imme<3>        |pc_imme<3>     |    8.114|
+imme<3>        |pc_imme<4>     |    8.874|
+imme<3>        |pc_imme<5>     |    9.094|
+imme<3>        |pc_imme<6>     |    8.061|
+imme<3>        |pc_imme<7>     |    8.607|
+imme<3>        |pc_imme<8>     |    8.199|
+imme<3>        |pc_imme<9>     |    8.923|
+imme<3>        |pc_imme<10>    |    8.405|
+imme<3>        |pc_imme<11>    |    9.109|
+imme<3>        |pc_imme<12>    |    7.864|
+imme<3>        |pc_imme<13>    |    8.510|
+imme<3>        |pc_imme<14>    |    8.504|
+imme<3>        |pc_imme<15>    |    9.672|
+imme<4>        |pc_imme<4>     |    8.485|
+imme<4>        |pc_imme<5>     |    8.879|
+imme<4>        |pc_imme<6>     |    8.118|
+imme<4>        |pc_imme<7>     |    8.664|
+imme<4>        |pc_imme<8>     |    8.256|
+imme<4>        |pc_imme<9>     |    8.980|
+imme<4>        |pc_imme<10>    |    8.462|
+imme<4>        |pc_imme<11>    |    9.166|
+imme<4>        |pc_imme<12>    |    7.921|
+imme<4>        |pc_imme<13>    |    8.567|
+imme<4>        |pc_imme<14>    |    8.561|
+imme<4>        |pc_imme<15>    |    9.729|
+imme<5>        |pc_imme<5>     |    8.684|
+imme<5>        |pc_imme<6>     |    8.172|
+imme<5>        |pc_imme<7>     |    8.718|
+imme<5>        |pc_imme<8>     |    8.310|
+imme<5>        |pc_imme<9>     |    9.034|
+imme<5>        |pc_imme<10>    |    8.516|
+imme<5>        |pc_imme<11>    |    9.220|
+imme<5>        |pc_imme<12>    |    7.975|
+imme<5>        |pc_imme<13>    |    8.621|
+imme<5>        |pc_imme<14>    |    8.615|
+imme<5>        |pc_imme<15>    |    9.783|
+imme<6>        |pc_imme<6>     |    7.479|
+imme<6>        |pc_imme<7>     |    8.199|
+imme<6>        |pc_imme<8>     |    8.063|
+imme<6>        |pc_imme<9>     |    8.787|
+imme<6>        |pc_imme<10>    |    8.269|
+imme<6>        |pc_imme<11>    |    8.973|
+imme<6>        |pc_imme<12>    |    7.728|
+imme<6>        |pc_imme<13>    |    8.374|
+imme<6>        |pc_imme<14>    |    8.368|
+imme<6>        |pc_imme<15>    |    9.536|
+imme<7>        |pc_imme<7>     |    7.762|
+imme<7>        |pc_imme<8>     |    7.875|
+imme<7>        |pc_imme<9>     |    8.599|
+imme<7>        |pc_imme<10>    |    8.081|
+imme<7>        |pc_imme<11>    |    8.785|
+imme<7>        |pc_imme<12>    |    7.540|
+imme<7>        |pc_imme<13>    |    8.186|
+imme<7>        |pc_imme<14>    |    8.180|
+imme<7>        |pc_imme<15>    |    9.348|
+imme<8>        |pc_imme<8>     |    7.911|
+imme<8>        |pc_imme<9>     |    8.809|
+imme<8>        |pc_imme<10>    |    8.563|
+imme<8>        |pc_imme<11>    |    9.267|
+imme<8>        |pc_imme<12>    |    8.022|
+imme<8>        |pc_imme<13>    |    8.668|
+imme<8>        |pc_imme<14>    |    8.662|
+imme<8>        |pc_imme<15>    |    9.830|
+imme<9>        |pc_imme<9>     |    8.360|
+imme<9>        |pc_imme<10>    |    8.363|
+imme<9>        |pc_imme<11>    |    9.067|
+imme<9>        |pc_imme<12>    |    7.822|
+imme<9>        |pc_imme<13>    |    8.468|
+imme<9>        |pc_imme<14>    |    8.462|
+imme<9>        |pc_imme<15>    |    9.630|
+imme<10>       |pc_imme<10>    |    7.485|
+imme<10>       |pc_imme<11>    |    8.363|
+imme<10>       |pc_imme<12>    |    7.390|
+imme<10>       |pc_imme<13>    |    8.036|
+imme<10>       |pc_imme<14>    |    8.030|
+imme<10>       |pc_imme<15>    |    9.198|
+imme<11>       |pc_imme<11>    |    8.406|
+imme<11>       |pc_imme<12>    |    7.682|
+imme<11>       |pc_imme<13>    |    8.328|
+imme<11>       |pc_imme<14>    |    8.322|
+imme<11>       |pc_imme<15>    |    9.490|
+imme<12>       |pc_imme<12>    |    7.547|
+imme<12>       |pc_imme<13>    |    8.367|
+imme<12>       |pc_imme<14>    |    8.633|
+imme<12>       |pc_imme<15>    |    9.801|
+imme<13>       |pc_imme<13>    |    7.872|
+imme<13>       |pc_imme<14>    |    8.387|
+imme<13>       |pc_imme<15>    |    9.555|
+imme<14>       |pc_imme<14>    |    8.462|
+imme<14>       |pc_imme<15>    |    9.804|
+imme<15>       |pc_imme<15>    |    9.202|
+pc<0>          |pc_imme<0>     |    9.166|
+pc<0>          |pc_imme<1>     |   10.010|
+pc<0>          |pc_imme<2>     |    9.377|
+pc<0>          |pc_imme<3>     |    9.794|
+pc<0>          |pc_imme<4>     |   10.033|
+pc<0>          |pc_imme<5>     |   10.253|
+pc<0>          |pc_imme<6>     |    9.220|
+pc<0>          |pc_imme<7>     |    9.766|
+pc<0>          |pc_imme<8>     |    9.358|
+pc<0>          |pc_imme<9>     |   10.082|
+pc<0>          |pc_imme<10>    |    9.564|
+pc<0>          |pc_imme<11>    |   10.268|
+pc<0>          |pc_imme<12>    |    9.023|
+pc<0>          |pc_imme<13>    |    9.669|
+pc<0>          |pc_imme<14>    |    9.663|
+pc<0>          |pc_imme<15>    |   10.831|
+pc<1>          |pc_imme<1>     |    9.008|
+pc<1>          |pc_imme<2>     |    8.624|
+pc<1>          |pc_imme<3>     |    9.041|
+pc<1>          |pc_imme<4>     |    9.280|
+pc<1>          |pc_imme<5>     |    9.500|
+pc<1>          |pc_imme<6>     |    8.467|
+pc<1>          |pc_imme<7>     |    9.013|
+pc<1>          |pc_imme<8>     |    8.605|
+pc<1>          |pc_imme<9>     |    9.329|
+pc<1>          |pc_imme<10>    |    8.811|
+pc<1>          |pc_imme<11>    |    9.515|
+pc<1>          |pc_imme<12>    |    8.270|
+pc<1>          |pc_imme<13>    |    8.916|
+pc<1>          |pc_imme<14>    |    8.910|
+pc<1>          |pc_imme<15>    |   10.078|
+pc<2>          |pc_imme<2>     |    8.147|
+pc<2>          |pc_imme<3>     |    8.738|
+pc<2>          |pc_imme<4>     |    9.249|
+pc<2>          |pc_imme<5>     |    9.469|
+pc<2>          |pc_imme<6>     |    8.436|
+pc<2>          |pc_imme<7>     |    8.982|
+pc<2>          |pc_imme<8>     |    8.574|
+pc<2>          |pc_imme<9>     |    9.298|
+pc<2>          |pc_imme<10>    |    8.780|
+pc<2>          |pc_imme<11>    |    9.484|
+pc<2>          |pc_imme<12>    |    8.239|
+pc<2>          |pc_imme<13>    |    8.885|
+pc<2>          |pc_imme<14>    |    8.879|
+pc<2>          |pc_imme<15>    |   10.047|
+pc<3>          |pc_imme<3>     |    7.904|
+pc<3>          |pc_imme<4>     |    8.664|
+pc<3>          |pc_imme<5>     |    8.884|
+pc<3>          |pc_imme<6>     |    7.851|
+pc<3>          |pc_imme<7>     |    8.397|
+pc<3>          |pc_imme<8>     |    7.989|
+pc<3>          |pc_imme<9>     |    8.713|
+pc<3>          |pc_imme<10>    |    8.195|
+pc<3>          |pc_imme<11>    |    8.899|
+pc<3>          |pc_imme<12>    |    7.654|
+pc<3>          |pc_imme<13>    |    8.300|
+pc<3>          |pc_imme<14>    |    8.294|
+pc<3>          |pc_imme<15>    |    9.462|
+pc<4>          |pc_imme<4>     |    7.851|
+pc<4>          |pc_imme<5>     |    8.245|
+pc<4>          |pc_imme<6>     |    7.484|
+pc<4>          |pc_imme<7>     |    8.030|
+pc<4>          |pc_imme<8>     |    7.622|
+pc<4>          |pc_imme<9>     |    8.346|
+pc<4>          |pc_imme<10>    |    7.828|
+pc<4>          |pc_imme<11>    |    8.532|
+pc<4>          |pc_imme<12>    |    7.287|
+pc<4>          |pc_imme<13>    |    7.933|
+pc<4>          |pc_imme<14>    |    7.927|
+pc<4>          |pc_imme<15>    |    9.095|
+pc<5>          |pc_imme<5>     |    7.751|
+pc<5>          |pc_imme<6>     |    7.239|
+pc<5>          |pc_imme<7>     |    7.785|
+pc<5>          |pc_imme<8>     |    7.377|
+pc<5>          |pc_imme<9>     |    8.101|
+pc<5>          |pc_imme<10>    |    7.583|
+pc<5>          |pc_imme<11>    |    8.287|
+pc<5>          |pc_imme<12>    |    7.042|
+pc<5>          |pc_imme<13>    |    7.688|
+pc<5>          |pc_imme<14>    |    7.682|
+pc<5>          |pc_imme<15>    |    8.850|
+pc<6>          |pc_imme<6>     |    6.865|
+pc<6>          |pc_imme<7>     |    7.585|
+pc<6>          |pc_imme<8>     |    7.449|
+pc<6>          |pc_imme<9>     |    8.173|
+pc<6>          |pc_imme<10>    |    7.655|
+pc<6>          |pc_imme<11>    |    8.359|
+pc<6>          |pc_imme<12>    |    7.114|
+pc<6>          |pc_imme<13>    |    7.760|
+pc<6>          |pc_imme<14>    |    7.754|
+pc<6>          |pc_imme<15>    |    8.922|
+pc<7>          |pc_imme<7>     |    7.267|
+pc<7>          |pc_imme<8>     |    7.380|
+pc<7>          |pc_imme<9>     |    8.104|
+pc<7>          |pc_imme<10>    |    7.586|
+pc<7>          |pc_imme<11>    |    8.290|
+pc<7>          |pc_imme<12>    |    7.045|
+pc<7>          |pc_imme<13>    |    7.691|
+pc<7>          |pc_imme<14>    |    7.685|
+pc<7>          |pc_imme<15>    |    8.853|
+pc<8>          |pc_imme<8>     |    7.356|
+pc<8>          |pc_imme<9>     |    8.254|
+pc<8>          |pc_imme<10>    |    8.008|
+pc<8>          |pc_imme<11>    |    8.712|
+pc<8>          |pc_imme<12>    |    7.467|
+pc<8>          |pc_imme<13>    |    8.113|
+pc<8>          |pc_imme<14>    |    8.107|
+pc<8>          |pc_imme<15>    |    9.275|
+pc<9>          |pc_imme<9>     |    8.080|
+pc<9>          |pc_imme<10>    |    8.083|
+pc<9>          |pc_imme<11>    |    8.787|
+pc<9>          |pc_imme<12>    |    7.542|
+pc<9>          |pc_imme<13>    |    8.188|
+pc<9>          |pc_imme<14>    |    8.182|
+pc<9>          |pc_imme<15>    |    9.350|
+pc<10>         |pc_imme<10>    |    7.210|
+pc<10>         |pc_imme<11>    |    8.088|
+pc<10>         |pc_imme<12>    |    7.115|
+pc<10>         |pc_imme<13>    |    7.761|
+pc<10>         |pc_imme<14>    |    7.755|
+pc<10>         |pc_imme<15>    |    8.923|
+pc<11>         |pc_imme<11>    |    8.320|
+pc<11>         |pc_imme<12>    |    7.596|
+pc<11>         |pc_imme<13>    |    8.242|
+pc<11>         |pc_imme<14>    |    8.236|
+pc<11>         |pc_imme<15>    |    9.404|
+pc<12>         |pc_imme<12>    |    7.007|
+pc<12>         |pc_imme<13>    |    7.827|
+pc<12>         |pc_imme<14>    |    8.093|
+pc<12>         |pc_imme<15>    |    9.261|
+pc<13>         |pc_imme<13>    |    7.452|
+pc<13>         |pc_imme<14>    |    7.967|
+pc<13>         |pc_imme<15>    |    9.135|
+pc<14>         |pc_imme<14>    |    7.325|
+pc<14>         |pc_imme<15>    |    8.667|
+pc<15>         |pc_imme<15>    |    8.304|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Nov 26 21:24:41 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 124 MB
+
+
+

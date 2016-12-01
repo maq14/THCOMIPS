@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/project/CPU/test_cpu_isim_beh.exe" -prj "C:/project/CPU/test_cpu_beh.prj" "work.test_cpu" 

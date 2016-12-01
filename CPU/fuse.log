@@ -1,0 +1,63 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/project/CPU/test_cpu_isim_beh.exe" -prj "C:/project/CPU/test_cpu_beh.prj" "work.test_cpu" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/project/CPU/registers.vhd" into library work
+Parsing VHDL file "C:/project/CPU/pcadder.vhd" into library work
+Parsing VHDL file "C:/project/CPU/pc.vhd" into library work
+Parsing VHDL file "C:/project/CPU/mux4.vhd" into library work
+Parsing VHDL file "C:/project/CPU/mux3.vhd" into library work
+Parsing VHDL file "C:/project/CPU/mux2.vhd" into library work
+Parsing VHDL file "C:/project/CPU/mulmux.vhd" into library work
+Parsing VHDL file "C:/project/CPU/mem_wb.vhd" into library work
+Parsing VHDL file "C:/project/CPU/memoryvisitor.vhd" into library work
+Parsing VHDL file "C:/project/CPU/if_id.vhd" into library work
+Parsing VHDL file "C:/project/CPU/id_exe.vhd" into library work
+Parsing VHDL file "C:/project/CPU/hazard.vhd" into library work
+Parsing VHDL file "C:/project/CPU/extend.vhd" into library work
+Parsing VHDL file "C:/project/CPU/exe_mem.vhd" into library work
+Parsing VHDL file "C:/project/CPU/decoder.vhd" into library work
+Parsing VHDL file "C:/project/CPU/ctrl.vhd" into library work
+Parsing VHDL file "C:/project/CPU/clk_4.vhd" into library work
+Parsing VHDL file "C:/project/CPU/bypass.vhd" into library work
+Parsing VHDL file "C:/project/CPU/alu.vhd" into library work
+Parsing VHDL file "C:/project/CPU/adder.vhd" into library work
+Parsing VHDL file "C:/project/CPU/CPU.vhd" into library work
+Parsing VHDL file "C:/project/CPU/test_cpu.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 106884 KB
+Fuse CPU Usage: 233 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity clk_4 [clk_4_default]
+Compiling architecture behavioral of entity mux2 [\mux2(15,0,15,0,15,0)\]
+Compiling architecture behavioral of entity pc [pc_default]
+Compiling architecture behavioral of entity memoryvisitor [memoryvisitor_default]
+Compiling architecture behavioral of entity pcadder [pcadder_default]
+Compiling architecture behavioral of entity if_id [if_id_default]
+Compiling architecture behavioral of entity decoder [decoder_default]
+Compiling architecture behavioral of entity registers [registers_default]
+Compiling architecture behavioral of entity extend [extend_default]
+Compiling architecture behavioral of entity hazard [hazard_default]
+Compiling architecture behavioral of entity id_exe [id_exe_default]
+Compiling architecture behavioral of entity mux3 [mux3_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture behavioral of entity adder [adder_default]
+Compiling architecture behavioral of entity mulmux [mulmux_default]
+Compiling architecture behavioral of entity bypass [bypass_default]
+Compiling architecture behavioral of entity exe_mem [exe_mem_default]
+Compiling architecture behavioral of entity ctrl [ctrl_default]
+Compiling architecture behavioral of entity mem_wb [mem_wb_default]
+Compiling architecture behavioral of entity mux4 [mux4_default]
+Compiling architecture behavioral of entity CPU [cpu_default]
+Compiling architecture behavior of entity test_cpu
+Time Resolution for simulation is 1ps.
+Waiting for 18 sub-compilation(s) to finish...
+Compiled 47 VHDL Units
+Built simulation executable C:/project/CPU/test_cpu_isim_beh.exe
+Fuse Memory Usage: 122932 KB
+Fuse CPU Usage: 405 ms

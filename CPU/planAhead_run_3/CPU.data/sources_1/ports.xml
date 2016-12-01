@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="data_ram1">
+			<Port Id="15" Dir="INOUT"/>
+			<Port Id="14" Dir="INOUT"/>
+			<Port Id="13" Dir="INOUT"/>
+			<Port Id="12" Dir="INOUT"/>
+			<Port Id="11" Dir="INOUT"/>
+			<Port Id="10" Dir="INOUT"/>
+			<Port Id="9" Dir="INOUT"/>
+			<Port Id="8" Dir="INOUT"/>
+			<Port Id="7" Dir="INOUT"/>
+			<Port Id="6" Dir="INOUT"/>
+			<Port Id="5" Dir="INOUT"/>
+			<Port Id="4" Dir="INOUT"/>
+			<Port Id="3" Dir="INOUT"/>
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Bus Id="data_ram2">
+			<Port Id="15" Dir="INOUT"/>
+			<Port Id="14" Dir="INOUT"/>
+			<Port Id="13" Dir="INOUT"/>
+			<Port Id="12" Dir="INOUT"/>
+			<Port Id="11" Dir="INOUT"/>
+			<Port Id="10" Dir="INOUT"/>
+			<Port Id="9" Dir="INOUT"/>
+			<Port Id="8" Dir="INOUT"/>
+			<Port Id="7" Dir="INOUT"/>
+			<Port Id="6" Dir="INOUT"/>
+			<Port Id="5" Dir="INOUT"/>
+			<Port Id="4" Dir="INOUT"/>
+			<Port Id="3" Dir="INOUT"/>
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Bus Id="addr_ram1">
+			<Port Id="17" Dir="OUT"/>
+			<Port Id="16" Dir="OUT"/>
+			<Port Id="15" Dir="OUT"/>
+			<Port Id="14" Dir="OUT"/>
+			<Port Id="13" Dir="OUT"/>
+			<Port Id="12" Dir="OUT"/>
+			<Port Id="11" Dir="OUT"/>
+			<Port Id="10" Dir="OUT"/>
+			<Port Id="9" Dir="OUT"/>
+			<Port Id="8" Dir="OUT"/>
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="addr_ram2">
+			<Port Id="17" Dir="OUT"/>
+			<Port Id="16" Dir="OUT"/>
+			<Port Id="15" Dir="OUT"/>
+			<Port Id="14" Dir="OUT"/>
+			<Port Id="13" Dir="OUT"/>
+			<Port Id="12" Dir="OUT"/>
+			<Port Id="11" Dir="OUT"/>
+			<Port Id="10" Dir="OUT"/>
+			<Port Id="9" Dir="OUT"/>
+			<Port Id="8" Dir="OUT"/>
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="clk" Dir="IN"/>
+		<Port Id="com_rdn" Dir="OUT"/>
+		<Port Id="we_ram1" Dir="OUT"/>
+		<Port Id="we_ram2" Dir="OUT"/>
+		<Port Id="com_wrn" Dir="OUT"/>
+		<Port Id="oe_ram1" Dir="OUT"/>
+		<Port Id="oe_ram2" Dir="OUT"/>
+		<Port Id="en_ram1" Dir="OUT"/>
+		<Port Id="en_ram2" Dir="OUT"/>
+		<Port Id="com_tbre" Dir="IN"/>
+		<Port Id="com_tsre" Dir="IN"/>
+		<Port Id="com_data_ready" Dir="IN"/>
+	</Ifc>
+</Interface>
+

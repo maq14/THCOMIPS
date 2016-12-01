@@ -1,0 +1,312 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/xlinix/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/xlinix/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/xlinix/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/project/CPU/pa.fromNetlist.tcl
+# create_project -name CPU -dir "C:/project/CPU/planAhead_run_2" -part xc3s1200efg320-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/project/CPU/CPU.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/project/CPU} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "CPU.ucf" [current_fileset -constrset]
+Adding file 'C:/project/CPU/CPU.ucf' to fileset 'constrs_1'
+# add_files [list {CPU.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s1200efg320-4
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design CPU.ngc ...
+WARNING:NetListWriters:298 - No output is written to CPU.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus id_imme<10 : 0> on block CPU is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus module_id_exe/imme_extend_out<10 : 0> on
+   block CPU is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file CPU.edif ...
+ngc2edif: Total memory usage is 58088 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/CPU.data/cache/CPU_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/CPU.data/cache/CPU_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/xlinix/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/xlinix/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/xlinix/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/xlinix/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/ClockRegion.xml
+Loading clock buffers from C:/xlinix/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/ClockBuffers.xml
+Loading package from C:/xlinix/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/fg320/Package.xml
+Loading io standards from C:/xlinix/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/xlinix/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/fg320/SSORules.xml
+Loading list of drcs for the architecture : C:/xlinix/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/xlinix/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/xlinix/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/project/CPU/CPU.ucf]
+Finished Parsing UCF File [C:/project/CPU/CPU.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 6ea3a67a
+link_design: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 487.207 ; gain = 68.496
+startgroup
+set_property package_pin C17 [get_ports {addr_ram1[0]}]
+endgroup
+startgroup
+set_property package_pin C18 [get_ports {addr_ram1[1]}]
+endgroup
+startgroup
+set_property package_pin D16 [get_ports {addr_ram1[2]}]
+endgroup
+startgroup
+set_property package_pin D17 [get_ports {addr_ram1[3]}]
+endgroup
+startgroup
+set_property package_pin E15 [get_ports {addr_ram1[4]}]
+endgroup
+startgroup
+set_property package_pin E16 [get_ports {addr_ram1[5]}]
+endgroup
+startgroup
+set_property package_pin F14 [get_ports {addr_ram1[6]}]
+endgroup
+startgroup
+set_property package_pin F15 [get_ports {addr_ram1[7]}]
+endgroup
+startgroup
+set_property package_pin F17 [get_ports {addr_ram1[8]}]
+endgroup
+startgroup
+set_property package_pin F18 [get_ports {addr_ram1[9]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {addr_ram1[10]}]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports {addr_ram1[11]}]
+endgroup
+startgroup
+set_property package_pin G15 [get_ports {addr_ram1[12]}]
+endgroup
+startgroup
+set_property package_pin G16 [get_ports {addr_ram1[13]}]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports {addr_ram1[14]}]
+endgroup
+startgroup
+set_property package_pin H15 [get_ports {addr_ram1[15]}]
+endgroup
+startgroup
+set_property package_pin H16 [get_ports {addr_ram1[16]}]
+endgroup
+startgroup
+set_property package_pin H17 [get_ports {addr_ram1[17]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {addr_ram2[0]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {addr_ram2[1]}]
+endgroup
+startgroup
+set_property package_pin N18 [get_ports {addr_ram2[2]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {addr_ram2[3]}]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports {addr_ram2[4]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {addr_ram2[5]}]
+endgroup
+startgroup
+set_property package_pin R15 [get_ports {addr_ram2[6]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {addr_ram2[7]}]
+endgroup
+startgroup
+set_property package_pin R18 [get_ports {addr_ram2[8]}]
+endgroup
+startgroup
+set_property package_pin T17 [get_ports {addr_ram2[9]}]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports {addr_ram2[10]}]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {addr_ram2[11]}]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {addr_ram2[12]}]
+endgroup
+startgroup
+set_property package_pin V13 [get_ports {addr_ram2[13]}]
+endgroup
+startgroup
+set_property package_pin V12 [get_ports {addr_ram2[14]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {addr_ram2[15]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {addr_ram2[16]}]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports {addr_ram2[17]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {addr_ram2[17]}]]
+set_property is_loc_fixed true [get_ports [list  {addr_ram2[17]}]]
+set_property is_loc_fixed false [get_ports [list  {addr_ram2[17]}]]
+set_property is_loc_fixed true [get_ports [list  {addr_ram2[17]}]]
+set_property package_pin "" [get_ports [list  {data_ram1[15]}]]
+startgroup
+set_property package_pin J12 [get_ports {data_ram1[0]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {data_ram1[1]}]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports {data_ram1[2]}]
+endgroup
+startgroup
+set_property package_pin J15 [get_ports {data_ram1[3]}]
+endgroup
+startgroup
+set_property package_pin J16 [get_ports {data_ram1[4]}]
+endgroup
+startgroup
+set_property package_pin J17 [get_ports {data_ram1[5]}]
+endgroup
+startgroup
+set_property package_pin K12 [get_ports {data_ram1[6]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {data_ram1[7]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {data_ram1[8]}]
+endgroup
+startgroup
+set_property package_pin K15 [get_ports {data_ram1[9]}]
+endgroup
+startgroup
+set_property package_pin L15 [get_ports {data_ram1[10]}]
+endgroup
+startgroup
+set_property package_pin L16 [get_ports {data_ram1[11]}]
+endgroup
+startgroup
+set_property package_pin L17 [get_ports {data_ram1[12]}]
+endgroup
+startgroup
+set_property package_pin L18 [get_ports {data_ram1[13]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {data_ram1[14]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {data_ram1[15]}]
+endgroup
+startgroup
+set_property package_pin U13 [get_ports {data_ram2[0]}]
+endgroup
+startgroup
+set_property package_pin T16 [get_ports {data_ram2[1]}]
+endgroup
+startgroup
+set_property package_pin T15 [get_ports {data_ram2[2]}]
+endgroup
+startgroup
+set_property package_pin T14 [get_ports {data_ram2[3]}]
+endgroup
+startgroup
+set_property package_pin T12 [get_ports {data_ram2[4]}]
+endgroup
+startgroup
+set_property package_pin R13 [get_ports {data_ram2[5]}]
+endgroup
+startgroup
+set_property package_pin R14 [get_ports {data_ram2[6]}]
+endgroup
+startgroup
+set_property package_pin R12 [get_ports {data_ram2[7]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {data_ram2[8]}]
+endgroup
+startgroup
+set_property package_pin R10 [get_ports {data_ram2[9]}]
+endgroup
+startgroup
+set_property package_pin P13 [get_ports {data_ram2[10]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {data_ram2[11]}]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports {data_ram2[12]}]
+endgroup
+startgroup
+set_property package_pin P10 [get_ports {data_ram2[13]}]
+endgroup
+startgroup
+set_property package_pin N12 [get_ports {data_ram2[14]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {data_ram2[15]}]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin A16 [get_ports com_data_ready]
+endgroup
+startgroup
+set_property package_pin C14 [get_ports com_rdn]
+endgroup
+startgroup
+set_property package_pin D14 [get_ports com_tbre]
+endgroup
+startgroup
+set_property package_pin N9 [get_ports com_tsre]
+endgroup
+startgroup
+set_property package_pin U5 [get_ports com_wrn]
+endgroup
+startgroup
+set_property package_pin M15 [get_ports en_ram1]
+endgroup
+startgroup
+set_property package_pin N10 [get_ports en_ram2]
+endgroup
+startgroup
+set_property package_pin M16 [get_ports oe_ram1]
+endgroup
+startgroup
+set_property package_pin R9 [get_ports oe_ram2]
+endgroup
+startgroup
+set_property package_pin M18 [get_ports we_ram1]
+endgroup
+startgroup
+set_property package_pin M9 [get_ports we_ram2]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Nov 27 18:37:49 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead
